@@ -84,7 +84,7 @@ public class Game {
     }
   }
 
-  private long iterate() {
+  long iterate() {
     for (int x = 0; x < plane.getWidth(); x++) {
       for (int y = 0; y < plane.getHeight(); y++) {
         int neighbors = getNeighbors(plane, x, y);

@@ -45,7 +45,7 @@ public class GamePanel extends JPanel {
     private  void drawIteration(Graphics2D g, long iteration) {
         g.setFont(new Font("Arial", Font.BOLD, 20));
         g.setColor(Color.RED);
-        g.drawString(Long.toString(game.getIteration()), 10 , 30);
+        g.drawString(Long.toString(iteration), 10 , 30);
     }
 
     private void drawPlane(Graphics2D g, Plane plane) {
